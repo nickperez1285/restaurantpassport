@@ -1,0 +1,27 @@
+@media (min-width: 500px) {
+  html {
+    background-color: blue ;
+  }
+}
+@media (min-width: 800px) {
+  html {
+    background-color: red;
+  }
+}
+html .title {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+html .logo {
+  height: 150px;
+  width: 150px;
+}
+html .login {
+  display: inline-flex;
+  flex-direction: row;
+  float: right;
+}
+html .intro {
+  padding-right: 4rem ;
+  padding-left: 4rem ;
+}
