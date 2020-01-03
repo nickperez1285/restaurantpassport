@@ -1,27 +1,81 @@
 @media (min-width: 500px) {
-  html {
-    background-color: blue ;
+  html .title {
+    font-size: 1em;
+  }
+  html .logo {
+    height: 3em;
+    width: 3em;
+  }
+  html .titlelogo {
+    height: 3.5em;
+  }
+  html .intro {
+    display: none;
+  }
+  html .login {
+    display: flex;
+    flex-direction: column;
+  }
+  html .food {
+    display: none;
+  }
+  html .about {
+    display: flex;
+    flex-direction: column;
+  }
+  html .welcome {
+    display: none;
   }
 }
 @media (min-width: 800px) {
-  html {
-    background-color: red;
+  html .title {
+    font-size: 2em;
   }
+  html .logo {
+    height: 5em;
+    width: 5em;
+  }
+  html .titlelogo {
+    height: 100%;
+  }
+  html .logbuts {
+    display: flex;
+    flex-direction: row;
+    float: right;
+  }
+  html .intro {
+    display: block;
+    padding-right: 4rem ;
+    padding-left: 4rem ;
+    font-family: sans-serif;
+  }
+  html .food {
+    display: block;
+    text-align: center;
+  }
+  html .about {
+    display: none;
+  }
+  html .welcome {
+    display: block;
+  }
+}
+html button {
+  font-family: sans-serif;
+  color: black;
+  border: 2px solid black;
+  margin-right: 5px ;
+  font-size: 15px;
+  margin-left: 2px;
+}
+html h2 {
+  font-family: sans-serif;
+}
+html .top {
+  background-color: red;
 }
 html .title {
   margin-block-start: 0;
   margin-block-end: 0;
-}
-html .logo {
-  height: 150px;
-  width: 150px;
-}
-html .login {
-  display: inline-flex;
-  flex-direction: row;
-  float: right;
-}
-html .intro {
-  padding-right: 4rem ;
-  padding-left: 4rem ;
+  font-family: sans-serif;
 }
