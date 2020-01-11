@@ -95,6 +95,10 @@ ul {
   height: 10rem;
   width: 10rem;
 }
+.intro2 {
+  font-family: sans-serif;
+  font-size: 15px;
+}
 .titlelogo {
   text-decoration: none ;
   color: black;

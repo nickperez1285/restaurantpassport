@@ -2,16 +2,23 @@ ul {
   list-style: none;
 }
 .teampix {
-  display: inline-flex;
-  flex-direction: row;
-  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: center ;
   height: 10rem;
   width: 10rem;
+}
+.intro2 {
+  display: none;
+}
+.titlelogo {
+  text-decoration: none ;
+  color: black;
 }
 button {
   font-family: sans-serif;
   color: black;
-  margin-right: 5px ;
   font-size: 15px;
+  margin-right: 0.01px;
   margin-left: 2px;
 }
