@@ -1,0 +1,121 @@
+@mobile: ~"(min-width: 500px)";
+@desktop: ~"(min-width: 800px)";
+
+	@media @mobile { 
+		
+
+		.title{
+		 	font-size: 1em;
+			}
+		.logo{
+			height: 3em;
+			width:3em;
+		}
+		.titlelogo{
+			height:3.5em;
+		}
+		.intro{
+			display: none;
+
+		}
+		.login{
+			display: flex;
+			flex-direction: column;
+		
+		}
+		.food{
+			.intro(); 
+		}
+		.about{
+			.login();
+		}
+
+		.welcome{ 
+			display:none;
+		 }
+		
+
+	}
+
+
+	@media @desktop{
+		// background-color: white;
+		 .about-main{
+			font-family: sans-serif ;
+			font-size:20px;
+		}
+		.title{
+			font-size: 2em;
+			}
+		.logo{
+			height:5em;
+			width: 5em;
+
+		}
+		.titlelogo{
+			height:100%;
+		}
+		.logbuts{
+			display: flex; 
+			flex-direction: row;
+			float:right;
+		}
+		.about{
+			display: none;
+
+		}
+
+		.intro{
+			display: block; 
+			padding-right: 4rem ; 
+			padding-left: 4rem ; 
+			font-family: sans-serif ;
+
+		}
+		.food {
+			display: block;
+			text-align: center;
+		font-family: sans-serif ;
+			font-size:20px;
+		}
+		
+			.welcome{ 
+			display: block;
+		 }
+
+		
+
+
+	}
+	
+
+		button{
+		  font-family: sans-serif;
+		  color: black;
+		  border: 2px solid black;
+		  margin-right: 5px ;
+		  font-size:15px;
+		  margin-left: 2px;
+			  	
+		}
+	
+
+		h2{
+			font-family: sans-serif ;
+
+		}
+	
+		
+		.top{
+			background-color:red; 
+			
+
+		}
+		.title{
+			margin-block-start:0;
+			margin-block-end: 0; 
+			font-family: sans-serif ;
+		
+		}
+		
+		
