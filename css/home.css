@@ -28,6 +28,10 @@
   }
 }
 @media (min-width: 800px) {
+  .about-main {
+    font-family: sans-serif;
+    font-size: 20px;
+  }
   .title {
     font-size: 2em;
   }
@@ -55,6 +59,8 @@
   .food {
     display: block;
     text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
   }
   .welcome {
     display: block;
