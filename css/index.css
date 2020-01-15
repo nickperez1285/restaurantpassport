@@ -96,12 +96,13 @@ h2 {
   font-family: sans-serif;
 }
 .top {
-  background-color: red;
+  background-image: url('../img/food3.jpeg');
 }
 .title {
   margin-block-start: 0;
   margin-block-end: 0;
   font-family: sans-serif;
+  background-color: white;
 }
 body {
   height: 100%;
