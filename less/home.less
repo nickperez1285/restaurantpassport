@@ -2,10 +2,9 @@
 @desktop: ~"(min-width: 800px)";
 
 	@media @mobile { 
-		
 
 		.title{
-		 	font-size: 1em;
+		 	font-size: 1.5em;
 			}
 		.logo{
 			height: 3em;
@@ -22,7 +21,8 @@
 		.login{
 			display: flex;
 			flex-direction: column;
-		
+			margin-bottom: 1em;
+
 		}
 		.food{
 			.intro(); 
@@ -34,6 +34,18 @@
 		.welcome{ 
 			display:none;
 		 }
+		 .welcome2{
+		 	text-align: center; 
+		 }
+		 .littlefood{
+		 	display: block; 
+		 	margin-left: auto;
+		 	margin-right: auto;
+
+		 	width:75%;
+		 }
+
+		 
 		
 
 	}
@@ -49,8 +61,8 @@
 			font-size: 2em;
 			}
 		.logo{
-			height:5em;
-			width: 5em;
+			height:6em;
+			width: 6em;
 
 		}
 		.titlelogo{
@@ -60,6 +72,8 @@
 			display: flex; 
 			flex-direction: row;
 			float:right;
+			// margin-bottom: 1px;
+
 		}
 		.about{
 			display: none;
@@ -83,6 +97,13 @@
 			.welcome{ 
 			display: block;
 		 }
+		 .welcome2{
+		 	display: none;
+		 }
+
+		 .littlefood{
+		 	display: none;
+		 }
 
 		
 
@@ -97,6 +118,7 @@
 		  margin-right: 5px ;
 		  font-size:15px;
 		  margin-left: 2px;
+		  border-radius: 8px; 
 			  	
 		}
 	
@@ -118,5 +140,25 @@
 			font-family: sans-serif ;
 		
 		}
+
+		body {
+ height: 100%;
+ position: relative;
+
+}
+.main-container {
+ min-height: 100vh; 
+ overflow: hidden;
+ display: block;
+ position: relative;
+ padding-bottom: 100px; 
+}
+
+		footer {
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+ text-align: center;
+}
 		
 		
