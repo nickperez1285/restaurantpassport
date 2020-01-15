@@ -1,18 +1,18 @@
 @mobile: ~"(min-width: 500px)";
 @desktop: ~"(min-width: 800px)";
+@sizer:3em
 
 	@media @mobile { 
-		
 
 		.title{
-		 	font-size: 1em;
+		 	font-size: 1.5em;
 			}
 		.logo{
-			height: 3em;
-			width:3em;
+			height: @sizer;
+			width:@sizer;
 		}
 		.titlelogo{
-			height:3.5em;
+			height:@sizer;
 		}
 		.intro{
 			display: none;
@@ -22,7 +22,8 @@
 		.login{
 			display: flex;
 			flex-direction: column;
-		
+			margin-bottom: 1em
+
 		}
 		.food{
 			.intro(); 
@@ -34,6 +35,18 @@
 		.welcome{ 
 			display:none;
 		 }
+		 .welcome2{
+		 	text-align: center; 
+		 }
+		 .littlefood{
+		 	display: block; 
+		 	margin-left: auto;
+		 	margin-right: auto;
+
+		 	width:75%;
+		 }
+
+		 
 		
 
 	}
@@ -41,6 +54,7 @@
 
 	@media @desktop{
 		// background-color: white;
+
 		 .about-main{
 			font-family: sans-serif ;
 			font-size:20px;
@@ -49,8 +63,8 @@
 			font-size: 2em;
 			}
 		.logo{
-			height:5em;
-			width: 5em;
+			height:6em;
+			width: 6em;
 
 		}
 		.titlelogo{
@@ -60,6 +74,8 @@
 			display: flex; 
 			flex-direction: row;
 			float:right;
+			// margin-bottom: 1px;
+
 		}
 		.about{
 			display: none;
@@ -68,8 +84,8 @@
 
 		.intro{
 			display: block; 
-			padding-right: 4rem ; 
-			padding-left: 4rem ; 
+			padding-right: @sizer ; 
+			padding-left: @sizer; 
 			font-family: sans-serif ;
 
 		}
@@ -77,11 +93,18 @@
 			display: block;
 			text-align: center;
 		font-family: sans-serif ;
-			font-size:20px;
+			font-size:2em;
 		}
 		
 			.welcome{ 
 			display: block;
+		 }
+		 .welcome2{
+		 	display: none;
+		 }
+
+		 .littlefood{
+		 	.welcome2();
 		 }
 
 		
@@ -97,6 +120,7 @@
 		  margin-right: 5px ;
 		  font-size:15px;
 		  margin-left: 2px;
+		  border-radius: 8px; 
 			  	
 		}
 	
@@ -108,7 +132,9 @@
 	
 		
 		.top{
-			background-color:red; 
+			// background-color:red; 
+			background-image: url('../img/food3.jpeg');
+
 			
 
 		}
@@ -116,7 +142,27 @@
 			margin-block-start:0;
 			margin-block-end: 0; 
 			font-family: sans-serif ;
+			background-color: white
 		
 		}
+
+		body {
+ height: 100%;
+ position: relative;
+
+}
+.main-container {
+ min-height: 90vh; 
+ display: block;
+ position: relative;
+ padding-bottom: 100px; 
+}
+
+		footer {
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+ text-align: center;
+}
 		
 		
